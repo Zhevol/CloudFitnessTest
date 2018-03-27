@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toastNetworkError">网络连接不可用，请检查网络连接</string>
+    <string name="toastDataError">数据异常，请重试</string>
+    <string name="toastInputRightNumber">请输入正确的手机号</string>
+    <string name="toastVerifyCodeError">验证码错误</string>
+    <string name="toastRegisterSuccess">注册成功</string>
+    <string name="toastSendSmsSuccess">发送成功</string>
+    <string name="toastNotFindAcademy">未查询到学校信息</string>
+    <string name="toastFollowSuccess">关注成功</string>
+    <string name="toastFollowFailed">关注失败</string>
+    <string name="toastDisFollowSuccess">取消关注成功</string>
+    <string name="toastDisFollowFailed">取消关注失败</string>
+    <string name="toastInputStudentName">请输入学生姓名</string>
+    <string name="toastInputStudentCode">请输入任意学籍号</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 间距 -->
+    <dimen name="dp_0D5">000.5dip</dimen>
+    <dimen name="dp_004">004.0dip</dimen>
+    <dimen name="dp_044">044.0dip</dimen>
+
+    <!-- 字号 -->
+    <dimen name="sp_13D5">13.5sp</dimen>
+    <dimen name="sp_15D0">15.0sp</dimen>
+    <dimen name="sp_16D5">16.5sp</dimen>
+    <dimen name="sp_18D0">18.0sp</dimen>
+    <dimen name="sp_21D0">21.0sp</dimen>
+    <dimen name="sp_22D5">22.5sp</dimen>
+    <dimen name="sp_27D0">27.0sp</dimen>
+    <dimen name="font18">@dimen/sp_13D5</dimen>
+    <dimen name="font20">@dimen/sp_15D0</dimen>
+    <dimen name="font22">@dimen/sp_16D5</dimen>
+    <dimen name="font24">@dimen/sp_18D0</dimen>
+    <dimen name="font28">@dimen/sp_21D0</dimen>
+    <dimen name="font30">@dimen/sp_22D5</dimen>
+    <dimen name="font36">@dimen/sp_27D0</dimen>
+
+</resources>

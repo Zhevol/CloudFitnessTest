@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.daoba.cloudfitnesstest"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -25,11 +25,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-
     //三方开源
     implementation 'com.google.code.gson:gson:2.8.2'
-    compile 'com.orhanobut:logger:2.1.1'
-
+    implementation 'com.orhanobut:logger:2.1.1'
+    implementation 'com.irozon.sneaker:sneaker:1.0.2'
     //jar包
     implementation files('libs/ksoap2-android-3.6.2.jar')
     implementation files('libs/com.google.guava_1.6.0.jar')

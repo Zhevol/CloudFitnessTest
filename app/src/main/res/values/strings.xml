@@ -1,3 +1,82 @@
 <resources>
     <string name="app_name">云体侧</string>
+
+    <!-- 登录 -->
+    <string name="loginLogin">登录</string>
+    <string name="loginPhone">手机号</string>
+    <string name="loginPhoneHint">请输入手机号</string>
+    <string name="loginPassword">密码</string>
+    <string name="loginPasswordHint">请输入密码(至少六位)</string>
+    <string name="loginNoAccount">还没有账号？</string>
+    <string name="loginRegisterNow">立即注册</string>
+
+    <!-- 注册 -->
+    <string name="registerRegister">注册</string>
+    <string name="registerPhone">@string/loginPhone</string>
+    <string name="registerPhoneHint">@string/loginPhoneHint</string>
+    <string name="registerNextStep">下一步</string>
+
+    <!-- 验证码验证 -->
+    <string name="verifyInputPhone">输入手机号</string>
+    <string name="verifyHint">验证码已发送至%1$d</string>
+    <string name="verifyVerifyCode">验证码</string>
+    <string name="verifyVerifyCodeHint">四-六位</string>
+    <string name="verifyPassword">@string/loginPassword</string>
+    <string name="verifyPasswordHint">@string/loginPasswordHint</string>
+    <string name="verifyRegister">@string/registerRegister</string>
+    <string name="verifyRegistered">手机号已注册？</string>
+    <string name="verifyLoginNow">立即登录</string>
+    <string name="verifyRegisterSuccess">注册成功</string>
+
+    <!-- 主界面 -->
+    <string name="tabCloudFitness">云体测平台</string>
+    <string name="tabHome">首页</string>
+    <string name="tabFindAcademy">学校查询</string>
+    <string name="tabDiscover">发现</string>
+    <string name="tabMine">我</string>
+
+    <!-- 首页 -->
+    <string name="homeCloudFitness">@string/tabCloudFitness</string>
+
+    <!-- 发现 -->
+    <string name="discoverFindAcademy">@string/tabFindAcademy</string>
+    <string name="discoverAcademyHint">请输入学校名称</string>
+
+    <!-- 我 -->
+    <string name="mineMine">@string/tabMine</string>
+    <string name="mineFollowStudent">关注学生</string>
+    <string name="mineFollowAcademy">关注学校</string>
+    <string name="mineFollow">关注</string>
+    <string name="mineDisFollow">取消关注</string>
+
+    <!-- 添加关注 -->
+    <string name="followFollow">添加关注</string>
+    <string name="followStudentName">学生姓名</string>
+    <string name="followStudentCode">正式学籍号</string>
+    <string name="followOldCode">曾用学籍号</string>
+    <string name="followTempCOde">临时学籍号</string>
+    <string name="followOtherCode">其他学籍号</string>
+    <string name="followSure">确定</string>
+
+    <!-- 设置界面 -->
+    <string name="settingsSettings">设置</string>
+    <string name="settingsMineInfo">个人资料</string>
+    <string name="settingsModifyPwd">修改密码</string>
+    <string name="settingsCheckUpdate">检查更新</string>
+    <string name="settingsAboutApp">关于平台</string>
+    <string name="settingsLogout">退出登录</string>
+
+    <!-- 修改密码 -->
+    <string name="modifyPwdModify">@string/settingsModifyPwd</string>
+    <string name="modifyPwdOld">原密码</string>
+    <string name="modifyPwdOldHint">请输入原密码</string>
+    <string name="modifyPwdNew">新密码</string>
+    <string name="modifyPwdNewHint">请输入新密码</string>
+    <string name="modifyPwdSure">@string/followSure</string>
+
+    <!-- 关于平台 -->
+    <string name="aboutAppAbout">@string/settingsAboutApp</string>
+    <string name="aboutAppContent1">操作方便\n云体测管理系统，是用于协助各学校完成体质健康上报工作的主要部分。它以导入国家平台体测模板的方式，快速完成体测工作的准备，在辅助与 APP 提供的体测数据及时登记功能，使得体测工作者能够在测试进行的同时快速进行成绩登记，并实时上传至云平台，形成上报数据。</string>
+    <string name="aboutAppContent2">查阅方便\n根据教育部的要求，学生能够随时查询本人的体测成绩。本平台 7 × 24 小时免费为所有测试过的学生提供任意学期 的成绩在线查询。</string>
+
 </resources>
